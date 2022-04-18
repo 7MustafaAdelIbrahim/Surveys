@@ -1,4 +1,5 @@
-Introduction
+
+## ***Introduction***.
 
 The Behavioral Risk Factor Surveillance System (BRFSS) is a state-based, CDC-assisted health-data collection project and partnership of state health departments, CDC’s Division of Population Health, and other CDC 
 programs and offices.
@@ -37,7 +38,9 @@ numbers represent likely households. The BRFSS calculates likely households and 
 proportions of eligible households/persons among all phone numbers where eligibility has been determined. 
 This eligibility factor appears in calculations of response, cooperation, resolution, and refusal rates.
 Page 4 of 26
-Interpretation of BRFSS Response Rates
+
+## ***Interpretation of BRFSS Response Rates***.
+
 Because this report reflects the inclusion of BRFSS cellular telephone interviews, contextual information on 
 cellular telephone response rates is provided below. Although cellular telephone response rates are generally 
 lower than landline telephone response rates across most surveys, the BRFSS has achieved a cellular telephone 
