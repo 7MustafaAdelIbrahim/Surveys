@@ -60,3 +60,44 @@ PMFs¶
 To visualize these distributions, we’ll use the Probability Mass Function (PMF), which is similar to a histogram. The difference is that the PMF is “normalized”, which means that it shows the percentage of people who gave each response, rather than the number.
 
 
+introduction form local source.
+
+Introduction
+The General Social Survey, or GSS, has run annually since 1972; it surveys a ‎representative sample of the adult population in the American society;‎
+It is widely used by politicians, policy makers, and researchers.‎
+in order to monitor and explain trends and constants in attitudes, behaviors, and ‎attributes. and asks questions about standard core of demographics, beliefs about ‎social and political issues, behavioral, and attitudinal questions, plus topics of special ‎interest. Among the topics covered are civil liberties, crime and violence, intergroup ‎tolerance, morality, national spending priorities, psychological well-being, social ‎mobility, and stress and traumatic events.  ‎
+Altogether the GSS is the single best source for sociological and attitudinal trend data ‎covering the United States. It allows researchers to examine the structure and ‎functioning of society in general as well as the role played by relevant subgroups and ‎to compare the United States to other nations.‎
+Source  http://gss.norc.org/About-The-GSS
+About the Data
+The survey is conducted face-to-face with an in-person interview by National Opinion ‎Research Center (NORC) at the University of Chicago. However, participation in the study is ‎strictly voluntary.‎
+Therefore, study based on the GSS sample data is:‎
+•	generalizable to the target population if we ignore the non-response bias;‎
+•	definitely not causal, because the study does not employ random assignments ‎and is only observational.‎
+Research Question
+As for the research question, I'm interested in exploring the relationship between ‎people's job preference and their education status, using latest data. ‎
+More specifically, are people's preference in a job (like job security, high income, short ‎working hours etc.) associated with their highest degree received?‎
+Motivation: Aside from sleeping, working is the activity that takes away the most of ‎our lifetime hours, and has a huge impact on people's well-being and happiness. I ‎would be really interested in the factors that determines peoples' attitude toward job.‎
+
+
+The survey contains more that 5000 of variables with data on a wide range of subjects, ‎I have selected just a few ‎
+How the dataset was collected
+
+Interview with respondent and Question associated with a variable.‎
+
+Year:  in which year each respondent was interviewed.‎
+Age: contains the respondent's age.‎
+cohort, the year in which the respondent was born, from 1953 to 1998.‎
+
+Sex: respondent's gender, 1 for male, 2 for female.‎
+
+race: The question associated, what race do you consider yourself? ‎
+Takes 3 discrete valves 1,2 0r 3. Where 1 ‎represents white, 2 for black, 3 represents other.‎
+
+Educ: years of education.‎
+
+realinc: represents total household income in dollars. ‎
+
+Gunlaw: The question associated , Would you favor or oppose a law which would ‎require a person to obtain a police permit before he or she could buy a gun?‎
+Grass: Do you think the use of marijuana should be made legal or not?‎
+wtssall: weight variable [for number of adults in hh before or after 2004]‎
+
