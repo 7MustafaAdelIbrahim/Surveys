@@ -36,9 +36,9 @@ For this dataset, there are three kinds of validation we’ll think about:
 missed data might be represented using special codes, or there might be patterns in the data that indicate problems with the survey process and the recording.
 Seemingly, there're alot of missingness in realic, gunlaw and grass columns.
 <p>
-<img src= https://user-images.githubusercontent.com/84151016/170541964-4a8bf65f-9506-4284-9dfc-b1eac82d242d.png width= 100 />
- <img src= https://user-images.githubusercontent.com/84151016/170541987-ba1bc8cc-2b1f-4dfe-896f-98bd9d42f68d.png width= 100 />
- <img src= https://user-images.githubusercontent.com/84151016/170542061-17f04ba8-28d4-4227-9a11-363b50baeb00.png width= 100 />
+<img src= https://user-images.githubusercontent.com/84151016/170541964-4a8bf65f-9506-4284-9dfc-b1eac82d242d.png width= 500 />
+ <img src= https://user-images.githubusercontent.com/84151016/170541987-ba1bc8cc-2b1f-4dfe-896f-98bd9d42f68d.png width= 500 />
+ <img src= https://user-images.githubusercontent.com/84151016/170542061-17f04ba8-28d4-4227-9a11-363b50baeb00.png width= 500 />
 </p>
      
 ##### ***Missingness imputation.***
