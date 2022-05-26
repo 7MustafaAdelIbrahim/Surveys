@@ -72,3 +72,6 @@ Validating data can be a tedious process, but it is important. If you interpret 
 We hear a lot of talk these days about liberals and conservatives. I’m going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal–point 1–to extremely conservative–point 7. Where would you place yourself on this scale?
 You can read the documentation of this [variable in the GSS codebook](https://gssdataexplorer.norc.org/variables/vfilter).
 To visualize these distributions, we’ll use the Probability Mass Function (PMF), which is similar to a histogram. The difference is that the PMF is “normalized”, which means that it shows the percentage of people who gave each response, rather than the number.
+
+## Exploratory data analysis.
+read the notebook to conduct analysis results.
