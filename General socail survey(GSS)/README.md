@@ -1,6 +1,6 @@
 
 
-INTRODUCTION
+## ***INTRODUCTION.***
 The National Data Program for the Social Sciences is designed as a data diffusion project and a program of social indicator research. The 
 data come from the General Social Surveys, interviews administered to NORC national samples using a standard questionnaire. Toward the 
 major goal of functioning as a social indicator program, items which have appeared on previous national surveys starting in 1937 have been 
@@ -25,26 +25,29 @@ source of your data. We also request that copies of reports which utilize the da
 60th Street, Chicago, IL 60637
 
 
-
-
-Reading the data¶
+## ***Reading the data.***
 The data we’ll use is from the General Social Survey (GSS). [Using the GSS Data Explorer](https://gssdataexplorer.norc.org/projects/52787), I selected a subset of the variables in the GSS and made it available along with this notebook. The following cell downloads this extract.
 
-
-Validation¶
-Now that we’ve got the data loaded, it is important to validate it, which means checking for errors.
-
-The kinds of errors you have to check for depend on the nature of the data, the collection process, how the data is stored and transmitted, etc.
-
+## ***Data Cleaning and Validation.***
+Now that we’ve got our datase loaded, it's important to validate it, which means checking for errors.
+The kinds of proplems and errors we've to check for depend on the nature of the data, the collection process, how the data is stored and transmitted, etc.
 For this dataset, there are three kinds of validation we’ll think about:
+#### ***Missingness*** 
+missed data might be represented using special codes, or there might be patterns in the data that indicate problems with the survey process and the recording.
+Seemingly, there're alot of missingness in realic, gunlaw and grass columns.
 
-We need to check the integrity of the dataset; that is, whether the data were corrupted or changed during transmission, storage, or conversion from one format to another.
+![distribution of misingness](https://user-images.githubusercontent.com/84151016/170541964-4a8bf65f-9506-4284-9dfc-b1eac82d242d.png)![missingness with bar](https://user-images.githubusercontent.com/84151016/170541987-ba1bc8cc-2b1f-4dfe-896f-98bd9d42f68d.png)![missingness corr and dendogram](https://user-images.githubusercontent.com/84151016/170542061-17f04ba8-28d4-4227-9a11-363b50baeb00.png)
 
+##### ***Missingness imputation.***
+We're going to impute the remain missingness in ***cohort, educ and realinc columns*** 
+***KNN imputation technique.***
+<br> It uses the ***K-Nearest Neighbor algorithm*** for predicting the missing values, finding the most similar data points using all the non-missing features for a data point and calculates the average of these similar points to fill the missing feature. Here, K specifies the number of similar or nearest points to consider.
+
+#### ***Integrity of the dataset***
+Whether the data were corrupted or changed during transmission, storage, or conversion from one format to another. 
 We need to check our interpretation of the data; for example, whether the numbers used to encode the data mean what we think they mean.
 
-We will also keep an eye out for invalid data; for example, missing data might be represented using special codes, or there might be patterns in the data that indicate problems with the survey process and the recording of the data.
-
-In a different dataset I worked with, I found a surprising number of respondents whose height was supposedly 62 centimeters. After investigating, I concluded that they were probably 6 feet, 2 inches, and their heights were recorded incorrectly.
+###
 
 Validating data can be a tedious process, but it is important. If you interpret data incorrectly and publish invalid results, you will be embarrassed in the best case, and in the worst case you might do real harm. See this article for a recent example.
 
